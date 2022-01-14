@@ -1,0 +1,215 @@
+    @import "./variables";
+    @import "./resets";
+    @import "./tab";
+    @import "./mobile";
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    body {
+        font-weight: weight(bold);
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+    }
+    
+    @media (min-width: 1024px) {
+        .mobile-header,
+        .content-container,
+        .mobile-content,
+        div,
+        .discription,
+        .stats,
+        .content-container {
+            display: none;
+        }
+        main {
+            div {
+                @include flexCenter(column);
+                margin: 5.5rem auto;
+                background-color: $Dark-desaturated-blue;
+                border-radius: 5px;
+                width: 75%;
+                height: 60vh;
+                position: relative;
+            }
+            .image-container {
+                width: 42.5%;
+                height: 99.9%;
+                position: absolute;
+                z-index: 1;
+                top: 0.1%;
+                right: -0.1%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: $Soft-violet;
+                object-fit: contain;
+                outline: none;
+                border-radius: 0 10px 10px 0;
+                .desktop-header {
+                    height: 100%;
+                    border-radius: 0 10px 10px 0;
+                    outline: none;
+                }
+            }
+            .content-container {
+                display: block;
+                position: relative;
+                right: 30%;
+                .desktop-content {
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    margin-left: 7rem;
+                    margin-top: 0.5rem;
+                    height: 100%;
+                    width: 40vw;
+                    @include flexCenter(column);
+                    h1 {
+                        position: absolute;
+                        font-size: 1.9rem;
+                        margin: 0 auto;
+                        top: -4.5rem;
+                        left: 2.5rem;
+                        bottom: 5rem;
+                        padding: 1rem;
+                        width: 100%;
+                    }
+                    .desktop-discription {
+                        @include flexCenter(column);
+                        font-size: 0.8rem;
+                        color: $Slightly-transparent-white;
+                        width: 100%;
+                        padding: 0 3rem;
+                        line-height: 1.2rem;
+                        p {
+                            margin-top: 2rem;
+                        }
+                    }
+                    .desktop-stats {
+                        @include flexCenter(row);
+                        font-size: 0.7rem;
+                        width: 100%;
+                        margin-top: 0.5rem;
+                        flex-wrap: wrap;
+                        gap: 10px 80px;
+                        /* row-gap [column-gap]*/
+                        h2 {
+                            margin-bottom: -5rem;
+                        }
+                    }
+                    .title {
+                        display: block;
+                        width: 100%;
+                        font-size: 0.5rem;
+                        font-weight: weight;
+                        line-height: 1rem;
+                    }
+                }
+            }
+        }
+        footer {
+            .attribution {
+                display: block;
+            }
+        }
+    }
+    /*****************************************/
+    
+    @media (min-width: 1210px) {
+        .mobile-header,
+        .content-container,
+        .mobile-content,
+        div,
+        .discription,
+        .stats,
+        .content-container {
+            display: none;
+        }
+        main {
+            div {
+                @include flexCenter(column);
+                margin: 6.5rem auto;
+                background-color: $Dark-desaturated-blue;
+                border-radius: 5px;
+                width: 80%;
+                height: 60vh;
+                position: relative;
+            }
+            .image-container {
+                width: 42.5%;
+                height: 99.9%;
+                position: absolute;
+                z-index: 1;
+                top: 0.1%;
+                right: -0.1%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: $Soft-violet;
+                object-fit: contain;
+                outline: none;
+                border-radius: 0 10px 10px 0;
+                .desktop-header {
+                    height: 100%;
+                    border-radius: 0 10px 10px 0;
+                    outline: none;
+                }
+            }
+            .content-container {
+                display: block;
+                position: relative;
+                right: 30%;
+                .desktop-content {
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    margin-left: 12rem;
+                    margin-top: 0.5rem;
+                    height: 100%;
+                    width: 40vw;
+                    @include flexCenter(column);
+                    h1 {
+                        position: absolute;
+                        font-size: 2.2rem;
+                        margin: 0 auto;
+                        top: -5.5rem;
+                        left: 2.5rem;
+                        bottom: 5rem;
+                        padding: 1rem;
+                        width: 100%;
+                    }
+                    .desktop-discription {
+                        @include flexCenter(column);
+                        font-size: 1rem;
+                        color: $Slightly-transparent-white;
+                        width: 100%;
+                        p {
+                            margin-top: 3rem;
+                            margin-right: 4rem;
+                            line-height: 1.5rem;
+                        }
+                    }
+                    .desktop-stats {
+                        @include flexCenter(row);
+                        font-size: 1rem;
+                        width: 100%;
+                        margin-top: 2rem;
+                        flex-wrap: wrap;
+                        gap: 10px 100px;
+                        margin-left: -4.5rem;
+                        /* row-gap [column-gap]*/
+                        h2 {
+                            margin-bottom: -5rem;
+                        }
+                    }
+                    .title {
+                        display: block;
+                        width: 100%;
+                        font-size: 0.6rem;
+                        font-weight: weight;
+                    }
+                }
+            }
+        }
+        footer {
+            .attribution {
+                display: block;
+            }
+        }
+    }

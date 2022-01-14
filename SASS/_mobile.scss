@@ -1,0 +1,132 @@
+   /*****************************************************/
+   /* Mobile L */
+   
+   @media (max-width: 425px) {
+       main {
+           margin: 6rem auto;
+           .desktop-header {
+               display: none;
+           }
+           div {
+               @include flexCenter(column);
+               margin: 20% 5%;
+               height: 170vh;
+               width: 90%;
+               background-color: $Dark-desaturated-blue;
+               border-radius: 10px;
+           }
+           .image-container {
+               width: 90%;
+               height: 53vh;
+               position: absolute;
+               z-index: 1;
+               bottom: 33.5%;
+               background-size: cover;
+               background-repeat: no-repeat;
+               background-color: $Soft-violet;
+               object-fit: contain;
+               outline: none;
+               border-radius: 10px 10px 0 0;
+           }
+           .content-container {
+               display: block;
+               text-align: center;
+               margin-left: 0;
+               padding: 0;
+               .mobile-content {
+                   margin-top: 23rem;
+                   height: 100%;
+                   width: 100%;
+                   height: 50%;
+                   margin-left: 0.1rem;
+                   .discription {
+                       margin-top: 1.9rem;
+                       line-height: 1.6rem;
+                   }
+               }
+               h1 {
+                   font-size: 2.2rem;
+               }
+               p {
+                   font-weight: weight(regular);
+                   font-size: 1.2rem;
+               }
+               .stats {
+                   display: block;
+                   margin-top: 2rem;
+                   h2 {
+                       line-height: 2.5rem;
+                       font-size: 1.5rem;
+                       font-weight: weight(bold);
+                   }
+               }
+               .title {
+                   display: block;
+                   font-weight: weight(regular);
+                   font-size: 0.5em;
+                   padding: -2em;
+               }
+           }
+       }
+       footer {
+           .attribution {
+               font-size: 0.6rem;
+           }
+       }
+   }
+   
+   .mobile-header {
+       border-radius: 10px 10px 0 0;
+   }
+   
+   img {
+       mix-blend-mode: multiply; //to add color over the image 
+       width: 100%;
+       opacity: 0.75;
+   }
+   /*****************************************************/
+   /* Mobile M */
+   
+   @media (max-width: 375px) {
+       main {
+           div {
+               height: 160vh;
+           }
+           .image-container {
+               height: 50vh;
+           }
+           img {
+               height: 50vh;
+           }
+           .mobile-content {
+               h1 {
+                   font-size: 2rem;
+               }
+               p {
+                   font-size: 1.1rem;
+               }
+           }
+           p {
+               font-weight: weight(regular);
+               font-size: 1rem;
+           }
+       }
+   }
+   /*****************************************************/
+   /* Mobile S */
+   
+   @media (max-width: 320px) {
+       main {
+           .mobile-content {
+               h1 {
+                   font-size: 1.7rem;
+               }
+               p {
+                   font-size: 0.9rem;
+               }
+           }
+           h2 {
+               font-size: 1.5rem;
+           }
+       }
+   }

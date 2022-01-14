@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// flex directon
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+body {
+    font-size: 15px;
+    background-color: $Very-dark-blue;
+    color: $White;
+    main {
+        .highlight {
+            color: $Soft-violet;
+        }
+        .discription {
+            color: $Slightly-transparent-White;
+        }
+        .stats {
+            color: $Slightly-transparent-White;
+        }
+    }
+    h2 {
+        color: $White;
+    }
+    .title {
+        color: $Slightly-transparent-white;
+    }
+}
+
+footer {
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
