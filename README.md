@@ -17,13 +17,13 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 - Desktop version 
-![image](https://user-images.githubusercontent.com/46198029/149514575-833e20b8-a71b-4a85-839c-1d5b3b4723a7.png)
+![image](https://user-images.githubusercontent.com/46198029/149515698-66f5742f-371c-4663-98bd-58a0359425f2.png)
 
 - Tablet version 
-![image](https://user-images.githubusercontent.com/46198029/149514775-81070bed-340a-4295-a8db-d7257720aa81.png)
+![image](https://user-images.githubusercontent.com/46198029/149515795-64d2ef21-d1b1-4a8b-88f9-7e77557688be.png)
 
 - Mobile version
-![image](https://user-images.githubusercontent.com/46198029/149514737-72084212-62f3-4fb0-8f6b-043a66ed5ff0.png)
+![image](https://user-images.githubusercontent.com/46198029/149515755-966ff62d-5b40-43b1-9f08-e3a3b008a392.png)
 
 ### Links
 
