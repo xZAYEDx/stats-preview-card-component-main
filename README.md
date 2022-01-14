@@ -22,7 +22,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - Tablet version 
 ![image](https://user-images.githubusercontent.com/46198029/149515795-64d2ef21-d1b1-4a8b-88f9-7e77557688be.png)
 
+
 - Mobile version
+
 ![image](https://user-images.githubusercontent.com/46198029/149515755-966ff62d-5b40-43b1-9f08-e3a3b008a392.png)
 
 ### Links
